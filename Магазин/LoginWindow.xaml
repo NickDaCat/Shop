@@ -1,0 +1,21 @@
+﻿<Window x:Class="Магазин.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Магазин"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Title="LoginWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Логин" FontSize="32"/>
+            <TextBox x:Name="tbЛогин" FontSize="32" Text="3o698uk5c0rw@tutanota.com"/>
+            <Label Content="Пароль" FontSize="32"/>
+            <PasswordBox x:Name="pbПароль" FontSize="32" Password="uzWC67"/>
+            <Button x:Name="btВойти" Content="Войти" FontSize="32" Click="btВойти_Click"/>
+            <Button x:Name="btВыйти" Content="Выйти" FontSize="32" Click="btВыйти_Click"/>
+        </StackPanel>        
+    </Grid>
+</Window>
